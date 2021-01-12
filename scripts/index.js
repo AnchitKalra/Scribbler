@@ -1,3 +1,3 @@
 function blogList() {
-    window.location.href = "./html/blogList.html";
+    window.location.href = "./html/postslist.html";
 }

@@ -1,0 +1,128 @@
+.a {
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+     margin: 0%;
+
+}
+.header1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+#logo {
+    font-family: 'Montez', cursive;
+    color: blue;
+    font-size: 35px;
+    margin: 10px;
+}
+#subheading {
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 4px;
+}
+#signin {
+    margin: 10px;
+    width: 100px;
+}
+#signup {
+    margin: 10px;
+    width: 100px;
+}
+.box1 {
+    width: 100%;
+   
+  display: flex;
+  flex-direction: row;
+
+}
+.box2 {
+  
+    display: flex;
+  flex-direction: row;
+
+}
+.box3 {
+  
+  display: flex;
+  flex-direction: row;
+  
+ 
+}
+#name1 {
+    width: 310px;
+    height: 175px;
+    margin: 5%;
+    margin-right: 0%;
+    
+
+}
+#name2 {
+    width: 310px;
+    height: 175px;
+    margin: 5%;
+    margin-right: 0%;
+ 
+
+}
+#name3 {
+    width: 340px;
+    height: 175px;
+    margin: 5%;
+    margin-right: 0%;
+ 
+
+}
+#name4 {
+    width: 310px;
+    height: 175px;
+    margin: 5%;
+    margin-right: 0%;
+ 
+
+}
+#name5 {
+    width: 310px;
+    height: 175px;
+    margin: 5%;
+    margin-right: 0%;
+ 
+
+}
+.card-columns {
+    display: flex;
+    flex-direction: column;
+}
+
+#Post1 {
+    background-color:silver;
+    margin: 5%;
+    margin-left: 0%;
+    height: 175px;
+}
+#post2 {
+    background-color:silver;
+    margin: 5%;
+    margin-left: 0%;
+    height: 175px;
+}
+#post3 {
+    background-color:silver;
+    margin: 5%;
+    margin-left: 0%;
+    height: 175px;
+}
+#post4 {
+    background-color:silver;
+    margin: 5%;
+    margin-left: 0%;
+    height: 175px;
+}
+#post5 {
+    background-color:silver;
+    margin: 5%;
+    margin-left: 0%;
+    height: 175px;
+}
+
+
