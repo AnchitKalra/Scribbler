@@ -1,9 +1,9 @@
 function deletePost1() {
 
-     console.log(document.getElementsByClassName("box1").item('div'));
+    // console.log(document.getElementsByClassName("box1").item('div'));
      document.getElementById('Post1').remove();
      document.getElementById('name1').remove();
-     console.log(document.getElementsByClassName("box1").length);
+     //console.log(document.getElementsByClassName("box1").length);
     
 }
 function deletePost2() {
