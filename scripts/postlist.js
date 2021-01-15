@@ -1,24 +1,74 @@
 function deletePost1() {
-
-    // console.log(document.getElementsByClassName("box1").item('div'));
      document.getElementById('Post1').remove();
      document.getElementById('name1').remove();
-     //console.log(document.getElementsByClassName("box1").length);
-    
+     var a = document.getElementById('post3');
+     if(a!= null || a!= '') {
+          var b = document.getElementsByClassName('box1')[0];
+          
+          var c = document.getElementById('name3');
+          b.appendChild(c);
+          b.appendChild(a);
+          var d = document.getElementById('post5');
+          if(d!= null || d!= '') {
+               var e = document.getElementsByClassName('box2')[0];
+               var f = document.getElementById('name5');
+               e.appendChild(f);
+               e.appendChild(d);
+          }
+     }
+     
 }
 function deletePost2() {
      document.getElementById('post2').remove();
     document.getElementById('name2').remove();
+
+
+    var a = document.getElementById('post3');
+    if(a!= null || a!= '') {
+         var b = document.getElementsByClassName('box1')[0];
+         
+         var c = document.getElementById('name3');
+         b.appendChild(c);
+         b.appendChild(a);
+         var d = document.getElementById('post5');
+         if(d!= null || d!= '') {
+              var e = document.getElementsByClassName('box2')[0];
+              var f = document.getElementById('name5');
+              e.appendChild(f);
+              e.appendChild(d);
+         }
+    }
     
 }
 function deletePost3() {
      document.getElementById('post3').remove();
      document.getElementById('name3').remove();
+
+     var a = document.getElementById('post5');
+     if(a!= null || a!= '') {
+          var b = document.getElementsByClassName('box2')[0];
+          
+          var c = document.getElementById('name5');
+          b.appendChild(c);
+          b.appendChild(a);
+          
+     }
+     
     
 }
 function deletePost4() {
      document.getElementById('post4').remove();
      document.getElementById('name4').remove();
+
+     var a = document.getElementById('post5');
+     if(a!= null || a!= '') {
+          var b = document.getElementsByClassName('box2')[0];
+          
+          var c = document.getElementById('name5');
+          b.appendChild(c);
+          b.appendChild(a);
+          
+     }
     
 }
 function deletePost5() {
