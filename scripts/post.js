@@ -134,7 +134,6 @@ function showPost() {
 
 
             var c = document.getElementById('post');
-            //<div id="post1Text">
              var d = document.createElement('div');
              d.setAttribute('id', 'post1Text');
              var e = document.createElement('p');
@@ -158,12 +157,29 @@ function displayCount() {
                 document.getElementById('count').innerHTML = i + ' people like this!';
         }
 }
+var i = 0;
 function displayComment(id) {
+        if(i === 0) {
+                var a = document.getElementById(id);
+                var c =  document.getElementById('post0'); 
+                c.innerText = a.value;
+                a.value = '';
+                i++;
+        }
+        else  {
         var a = document.getElementById(id);
         var b = document.createElement('p');
-        var c =  document.getElementById('0');
-        b.innerHTML = c.innerHTML;
-        c.innerHTML = a.value;
+        b.setAttribute('id', 'post' + (i.toString()));
+        var c =  document.getElementById('post0');
+        b.innerText = c.innerText;
+        c.innerText = a.value;
         c.appendChild(b);
         a.value = '';
+       
+        i++;
+        
+        
+        }
+
+
 }

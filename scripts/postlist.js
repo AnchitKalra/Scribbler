@@ -1,5 +1,5 @@
 function deletePost1() {
-     document.getElementById('Post1').remove();
+     document.getElementById('Post1').remove();//removing the first post
      document.getElementById('name1').remove();
      var a = document.getElementById('post3');
      if(a!= null || a!= '') {
@@ -77,12 +77,10 @@ function deletePost5() {
     
 }
 function boxShadow(id) {
-     //console.log('HI');
 document.getElementById(id).style = 'box-shadow: 5px 10px;';
 }
 showPost1();
 function showPost1() {
-     //console.log('HIIIIIIIIIIIIIIIIIII');
      var a = 'Since JavaScript does not have any type-checking,/n'+ 
      'either of these keywords can be used to declare a variable /n of any type (datatype) in JavaScript.'+
       'Though all the three /n keywords are used for the same purpose,/n they are different.';
